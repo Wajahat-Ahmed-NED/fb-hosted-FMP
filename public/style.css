@@ -1,0 +1,105 @@
+.back{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+}
+/* ===================================== */
+.one{
+    font-family: Rye;
+    width: 100%;
+    /* margin: 0px ; */
+    font-size: 65px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+@media only screen and (max-width: 600px) {
+    .one {
+        font-size: 40px;
+    }
+    .Two,.TWO{
+        display: block !important;
+        display:flex;
+        
+        width: 100%;
+        height:auto;
+    }
+    .Two-one,.Two-two{
+        font-size: 30px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+/* .one::after{
+    content: "_______";
+} */
+.One{
+    text-align: center;
+}
+.ONE{
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 20px auto;
+}
+/* ===================================== */
+.two{
+    display: flex;
+    flex: 1;    
+    /* jusify-content: space-between; */
+    flex-wrap: wrap;
+}
+.Two{
+    flex: 1;    
+   display:flex;
+    /* width: 400px; */
+    /* flex-direction: row; */
+    align-content: center;
+    justify-content: center;
+    /* padding: 20px 45px; */
+    /* margin: 5px 15px; */
+}
+/* .Two img{
+    
+    padding: 5px 0px  5px 20px ; margin: 0px 0px 5px 20px;
+} */
+.Two-one{
+    font-family: Bellota;  font-weight: 900;
+    font-size: 52px;
+    padding :0px 0px 0px 90px;
+    
+}
+.TWO{
+    /* width: 200px; */
+    margin: 5px 0px 0px 60px;
+    flex: 1 ;    
+    line-height: 50px;
+    align-content: center;
+    justify-content: center;
+}
+.Two-two{
+    font-family: Cutive Mono;
+/*         padding :0px 0px 0px 190px; */
+    line-height:190px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 60px;
+}
+/* ============================================== */
+.foooter{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+   
+}
+/* ====================== */
+#sub::before{
+    content: "___________";
+    color: coral;
+}
+#sub::after{
+    content: "___________";
+    color: coral;
+}
